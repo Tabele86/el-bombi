@@ -9,9 +9,8 @@ import Highlights from './pages/Highlights';
 function App() {
 	return (
 		<Router>
-			{/* <NavBar /> */}
+			<Route component={Enter} path="/" exact />
 			<Switch>
-				<Route component={Enter} path="/" exact />
 				<Route component={Home} path="/home" />
 				<Route component={Stats} path="/stats" />
 				<Route component={Highlights} path="/highlights" exact />

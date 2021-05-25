@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'TexasRangers';
+	src: local('TexasRangers'), url(./fonts/Texas-Ranger-Font/texasrangerbold.ttf) format('truetype');
+}
+
+.title {
+	font-family: TexasRangers, serif;
+}

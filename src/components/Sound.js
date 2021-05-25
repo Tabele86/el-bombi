@@ -8,7 +8,7 @@ const PlaySound = (handleSongLoading, handleSongPlaying, handleSongFinishedPlayi
 	return (
 		<div>
 			<button onClick={() => setIsPlaying(!isPlaying)}>
-				<FaMusic />
+				<FaMusic size="2em" />
 			</button>
 			<Sound
 				url={HR}
