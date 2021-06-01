@@ -17,6 +17,7 @@ const PlaySound = (handleSongLoading, handleSongPlaying, handleSongFinishedPlayi
 				onLoading={handleSongLoading}
 				onPlaying={handleSongPlaying}
 				onFinishedPlaying={handleSongFinishedPlaying}
+				catch={Error}
 			/>
 		</div>
 	);
