@@ -13,19 +13,22 @@ function Home() {
 				<div className="">
 					<img src={image} alt="" className=" object-contain" />
 				</div>
-				<h6>
+				<h6 className="text-white">
 					Photo courtesy from=
 					<a target="_blank" rel="noreferrer" href="https://twitter.com/jc_texas_art?lang=en">
 						JC_Texas_Art
 					</a>
 				</h6>
 
-				<div>
+				<div className="text-white py-10">
 					<a target="_blank" rel="noreferrer" href="https://www.mlb.com/all-star/ballot">
 						ALL STAR BALLOT
 					</a>
 				</div>
-				<Sound classNmae="left-0" />
+				<div>
+					<Sound />
+				</div>
+
 				<Footer />
 			</div>
 		</main>

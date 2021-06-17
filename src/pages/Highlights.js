@@ -4,6 +4,7 @@ import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Title from '../components/Title';
 import imageOF from '../images/adolisOF.jpg';
+import TwitterFeed from '../components/TwitterFeed';
 // import PostHighlights from '../api/twitterAPI/PostHighlights';
 function Home() {
 	return (
@@ -14,7 +15,7 @@ function Home() {
 				<div className="">
 					<img src={image} alt="" className=" object-contain" />
 				</div>
-				{/* <PostHighlights /> */}
+				<TwitterFeed />
 				<div className="">
 					<img src={imageOF} alt="" className=" object-fit max-h-80" />
 				</div>

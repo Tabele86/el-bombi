@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import TRlogo from '../images/Texas_Rangers.svg';
 
 function NavBar() {
 	return (
@@ -31,9 +32,7 @@ function NavBar() {
 							Highlights
 						</NavLink>
 					</div>
-					{/* <div className="container h-100px flex justify-end mr-0 my-5">
-						<img src={pine} alt="" className="h-14" />
-					</div> */}
+					<img src={TRlogo} alt="" className=" object-contain h-16" />
 				</nav>
 			</div>
 		</header>
