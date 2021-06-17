@@ -1,10 +1,9 @@
 import React from 'react';
-import image from '../images/adolis2.jpg';
+import imageTop from '../images/adolis2.jpg';
+import imageBot from '../images/adolisWalkOff.jpg';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Title from '../components/Title';
-// import PostList from '../api/MLBdataAPI/PostList';
-// import AxiosMLB from '../api/MLBdataAPI/AxiosMLB';
 import PostStats from '../api/MLBdataAPI/PostStats';
 function Stats() {
 	return (
@@ -12,10 +11,14 @@ function Stats() {
 			<NavBar />
 			<div className="container sm:mx-auto flex flex-col  items-center">
 				<Title />
-				<div className="">
-					<img src={image} alt="" className=" object-contain" />
+				<img src={imageTop} alt="" className=" object-contain " />
+				{/* <div className="container flex content-between flex-row "> */}
+				<div className="py-4">
+					<PostStats />
 				</div>
-				<PostStats />
+				<div className="">
+					<img src={imageBot} alt="" className=" object-fit max-h-80" />
+				</div>
 
 				<Footer />
 			</div>

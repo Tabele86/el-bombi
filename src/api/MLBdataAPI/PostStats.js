@@ -32,7 +32,8 @@ export default function PostStats() {
 
 	if (isLoading) return "Loading...";
 	if (error) return "Error!";
-console.log(data)
+// console.log(data)
+// console.dir(data)
 
 	return (
 	<>
