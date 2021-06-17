@@ -9,15 +9,13 @@ export default function PostStats() {
 	// useEffect(() => {
 	// 	fetch(
 
-			"http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2021'&player_id='666969'",
-			{
-				method: 'GET'
-				// headers: {
-				// 	'x-rapidapi-key': 'dba663cea0mshf983773a122d35dp165c1djsnbe83a5d1679b',
-				// 	'x-rapidapi-host': 'mlb-data.p.rapidapi.com'
-				// }
+		"https://mlb-data.p.rapidapi.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2021'&player_id='666969'", {
+			"method": "GET",
+			"headers": {
+				"x-rapidapi-key": "dba663cea0mshf983773a122d35dp165c1djsnbe83a5d1679b",
+				"x-rapidapi-host": "mlb-data.p.rapidapi.com"
 			}
-		);
+		})
 		// .then((res) => {
 		// 	console.log(res);
 		// 	return res.data;
@@ -37,7 +35,7 @@ export default function PostStats() {
 
 	return (
 	<>
-	{/* <p>{JSON.stringify(data)}</p> */}
+	
 	
 	
 	 <StatList   data={data} />
