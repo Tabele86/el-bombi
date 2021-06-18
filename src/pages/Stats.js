@@ -18,7 +18,7 @@ function Stats() {
 				<img
 					src={fireWorks}
 					alt="fire works"
-					className=" opacity-50 md:opacity-100 object-fit w-1/3 md:object-cover max-h-80 flex-1  invisible md:visible"
+					className=" object-fit w-1/3  max-h-80 flex-1  invisible md:visible"
 					// w-full md:w-1/3 absolute md:relative
 				/>
 				<div className="  relative flex-1 justify-center py-4  ">
