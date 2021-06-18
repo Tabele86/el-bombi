@@ -22,7 +22,7 @@ function Home() {
 
 				<div className="text-white py-10">
 					<a target="_blank" rel="noreferrer" href="https://www.mlb.com/all-star/ballot">
-						ALL STAR BALLOT
+						<b>ALL STAR BALLOT !!!</b>
 					</a>
 				</div>
 				<div>

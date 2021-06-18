@@ -32,7 +32,9 @@ function NavBar() {
 							Highlights
 						</NavLink>
 					</div>
-					<img src={TRlogo} alt="" className=" object-contain h-16" />
+					<div>
+						<img src={TRlogo} alt="texas rangers logo" className=" object-contain h-16" />
+					</div>
 				</nav>
 			</div>
 		</header>

@@ -9,7 +9,7 @@ const StatList = ({ data }) => {
 		<div className="stat-preview text-white text-center">
 			<h2>Adolis Garcia</h2>
 			<h4 className="underline">Current MLB Stats (2021)</h4>
-			<div className="stat-list text-white py-5 grid grid-cols-3 gap-4 place-items-center">
+			<div className="stat-list text-white py-5 grid grid-cols-3 gap-6 sm:gap-4 place-items-center">
 				<div className="ab border-white border-px ">
 					<h2>AB</h2>
 					<p>{stats.ab}</p>
