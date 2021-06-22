@@ -20,12 +20,20 @@ function Home() {
 					</a>
 				</h6>
 
-				<div className="text-white py-10">
+				<div className="text-white py-5">
 					<a target="_blank" rel="noreferrer" href="https://www.mlb.com/all-star/ballot">
 						<b>ALL STAR BALLOT !!!</b>
 					</a>
 				</div>
-				<div>
+				<br />
+				<div className="text-white ">
+					<ul>
+						<li> Phase 1 : June 24th</li>
+						<li> Phase 2 : July 1st</li>
+						<li> Winners will be announced July 1st 9PM</li>
+					</ul>
+				</div>
+				<div className="pt-3">
 					<Sound />
 				</div>
 

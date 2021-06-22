@@ -30,11 +30,13 @@ function Stats() {
 					className="object-fit   lg:max-h-80  flex-1 w-1/3  invisible md:visible pl-15"
 				/>
 			</div>
-			<img
-				src={imageBot}
-				alt=""
-				className=" pt-5 object-cover max-h-60 w-full  sm: object-top md:object-top lg:object-right-top"
-			/>
+			<div className="pt-20 md:pt-40">
+				<img
+					src={imageBot}
+					alt=""
+					className="  object-cover max-h-60 w-full  sm: object-top md:object-top lg:object-right-top"
+				/>
+			</div>
 
 			<div className="container sm:mx-auto flex flex-col  items-center">
 				<Footer />
