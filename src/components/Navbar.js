@@ -5,7 +5,7 @@ import TRlogo from '../images/Texas_Rangers.svg';
 function NavBar() {
 	return (
 		<header className="bg-red-800 ">
-			<div className="container mx-auto flex-wrap justify-between  ">
+			<div className=" mx-auto flex-wrap justify-between  ">
 				<nav className="flex justify-between ">
 					<div className="display inline-flex ">
 						<NavLink

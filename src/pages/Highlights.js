@@ -33,21 +33,18 @@ function Highlights() {
 						</React.Suspense>
 					</>
 				</div>
-				<button className="text-white" type="button" onClick={() => setTwitter2(true)}>
+				<div className="pt-40">	<button className="text-white" type="button" onClick={() => setTwitter2(true)}>
 					Show More
-				</button>
+				</button></div>
+			
 				
 			</div> 
-			<div className="pt-10">
-				{/* <img
-					src={imageOF}
-					alt="adolis outfield catch"
-					className="  object-contain max-h-80 w-full sm:object-fit md:object-none lg:object-none"
-				/> */}
+			<div className="pt-60">
+				
 				<img
 					src={imageOF}
 					alt="adolis outfield catch"
-					className="  object-fit max-h-80 w-full sm:object-fill md:object-cover  lg:object-cover  md:object-center lg:object-center"
+					className="  pt-5 object-cover max-h-60 w-full  sm: object-top md:object-center lg:object-center"
 				/>
 				
 			</div>

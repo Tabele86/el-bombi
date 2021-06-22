@@ -14,26 +14,26 @@ function Stats() {
 				<Title />
 				<img src={imageTop} alt="" className=" object-contain " />
 			</div>
-			<div className="container flex content-between flex-row items-center">
+			<div className=" flex content-between flex-row items-center">
 				<img
 					src={fireWorks}
 					alt="fire works"
-					className=" object-fit w-1/3  max-h-80 flex-1  invisible md:visible"
+					className=" object-fit w-1/3  max-h-80 flex-1 justify-self-start invisible md:visible pr-15"
 					// w-full md:w-1/3 absolute md:relative
 				/>
-				<div className="  relative flex-1 justify-center py-4  ">
+				<div className="  relative flex-1 justify-self-center py-4  ">
 					<PostStats />
 				</div>
 				<img
 					src={fireWorks}
 					alt="fire works"
-					className="object-fit  md: lg:max-h-80  flex-1 w-1/3  invisible md:visible"
+					className="object-fit   lg:max-h-80  flex-1 w-1/3  invisible md:visible pl-15"
 				/>
 			</div>
 			<img
 				src={imageBot}
 				alt=""
-				className=" pt-5 object-fit max-h-80 w-full sm:object-fill md:object-cover  lg:object-cover  md:object-top lg:object-top"
+				className=" pt-5 object-cover max-h-60 w-full  sm: object-top md:object-top lg:object-right-top"
 			/>
 
 			<div className="container sm:mx-auto flex flex-col  items-center">

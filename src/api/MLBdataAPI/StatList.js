@@ -1,4 +1,5 @@
 import React from 'react';
+import Tooltip from 'react-simple-tooltip';
 
 const StatList = ({ data }) => {
 	// console.log(data);
@@ -6,12 +7,14 @@ const StatList = ({ data }) => {
 	const stats = data['sport_hitting_tm']['queryResults']['row'];
 	// console.log(stats);
 	return (
-		<div className="stat-preview text-white text-center">
+		<div className="stat-preview text-white text-center container">
 			<h2>Adolis Garcia</h2>
 			<h4 className="underline">Current MLB Stats (2021)</h4>
-			<div className="stat-list text-white py-5 grid grid-cols-3 gap-6 sm:gap-4 place-items-center">
-				<div className="ab border-white border-px ">
-					<h2>AB</h2>
+			<div className=" container stat-list text-white py-5 grid grid-cols-3 gap-10 sm:gap-4 place-items-center max-w-md">
+				<div>
+					<Tooltip content="At Bats">
+						<h2>AB</h2>
+					</Tooltip>
 					<p>{stats.ab}</p>
 				</div>
 				<div>
@@ -19,12 +22,16 @@ const StatList = ({ data }) => {
 					<p>{stats.h}</p>
 				</div>
 				<div>
-					<h2>HR</h2>
+					<Tooltip content="Home Runs">
+						<h2>HR</h2>
+					</Tooltip>
 					<p>{stats.hr}</p>
 				</div>
 
 				<div>
-					<h2>BA</h2>
+					<Tooltip content="Batting Average">
+						<h2>BA</h2>
+					</Tooltip>
 					<p>{stats.avg}</p>
 				</div>
 				<div>
@@ -32,7 +39,9 @@ const StatList = ({ data }) => {
 					<p>{stats.r}</p>
 				</div>
 				<div>
-					<h2>RBI</h2>
+					<Tooltip content="Runs Batted In">
+						<h2>RBI</h2>
+					</Tooltip>
 					<p>{stats.rbi}</p>
 				</div>
 				<div>
@@ -40,8 +49,10 @@ const StatList = ({ data }) => {
 					<p>{stats.bb}</p>
 				</div>
 				<div>
-					<h2>SB</h2>
-					{/* Stolen Bases */}
+					<Tooltip content="Stolen Bases">
+						<h2>SB</h2>
+						{/* Stolen Bases */}
+					</Tooltip>
 					<p>{stats.sb}</p>
 				</div>
 				<div>
@@ -49,18 +60,24 @@ const StatList = ({ data }) => {
 					<p>{stats.g}</p>
 				</div>
 				<div>
-					<h2>OBP</h2>
-					{/* (On Base Percentage) */}
+					<Tooltip content="On Base Percentage">
+						<h2>OBP</h2>
+						{/* (On Base Percentage) */}
+					</Tooltip>
 					<p>{stats.obp}</p>
 				</div>
 				<div>
-					<h2>SLUG</h2>
-					{/* Slug Percentage */}
+					<Tooltip content="Slug Percentage">
+						<h2>SLUG</h2>
+						{/* Slug Percentage */}
+					</Tooltip>
 					<p>{stats.slg}</p>
 				</div>
 				<div>
-					<h2>OPS</h2>
-					{/* (OBP + SLUG) */}
+					<Tooltip content="OBP + SLUG">
+						<h2>OPS</h2>
+						{/* (OBP + SLUG) */}
+					</Tooltip>
 					<p>{stats.ops}</p>
 				</div>
 			</div>
