@@ -3,6 +3,7 @@ import StatList from './StatList';
 import useFetch from "react-fetch-hook";
 
 export default function PostStats() {
+	const apiKey= process.env.REACT_APP_RAPID_API_KEY
 	// const [ data, setData ] = useState(null);
 	// const [ error, setError ] = useState(null);
 	const{isLoading, error, data} = useFetch(
@@ -12,7 +13,7 @@ export default function PostStats() {
 		"https://mlb-data.p.rapidapi.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2021'&player_id='666969'", {
 			"method": "GET",
 			"headers": {
-				"x-rapidapi-key": "dba663cea0mshf983773a122d35dp165c1djsnbe83a5d1679b",
+				"x-rapidapi-key":`${apiKey}`,
 				"x-rapidapi-host": "mlb-data.p.rapidapi.com"
 			}
 		})
