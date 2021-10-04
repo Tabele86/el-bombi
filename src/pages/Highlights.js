@@ -22,7 +22,7 @@ function Highlights() {
 				<div className="pb-10">
 					<img src={image} alt="adolis points up after homerun" className=" object-contain" />
 				</div>
-				<div className=" grid grid-flow-row gap-4  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
+				<div className=" grid grid-flow-row gap-4  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2">
 				<>
 						<Suspense fallback={<div className="container flex flex-col  items-center text-white">Loading...</div>}>
 							 <TwitterFeed /> 

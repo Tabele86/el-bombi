@@ -4,10 +4,12 @@ import TweetEmbed from 'react-tweet-embed';
 function TwitterFeed() {
 	return (
 	<>
-		<TweetEmbed date="Jun 23" className="HR 20" id="1407892566364897283" />
-		<TweetEmbed date="Jun 23" className="HR 19" id="1407879045799419904" />
-		<TweetEmbed date="Jun 21" className="RBI Leader OF" id="1407132998210883584" />
-		<TweetEmbed date="Jun 20" className="BACK 2 BACK" id="1406716329730707462" />
+		<TweetEmbed date="Sep 30" className="Ranger Rookie records" id="1443671366494998529" />
+		<TweetEmbed date="Sep 28" className="Adolis Grab" id="1443015397582704641" />
+		<TweetEmbed date="Sep 11" className="Double up" id="1442195898004434945" />
+		<TweetEmbed date="Sep 18" className="HR Robbery" id="1439403601022095365" />
+		
+	
 		</>
 	);
 }

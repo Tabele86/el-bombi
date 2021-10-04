@@ -5,7 +5,7 @@ import fireWorks from '../images/fire-works.png';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Title from '../components/Title';
-import PostStats from '../api/MLBdataAPI/PostStats';
+import StaticStats from '../static-stats/StaticStats';
 function Stats() {
 	return (
 		<main className="bg-blue-400 w-full min-h-screen ">
@@ -22,7 +22,7 @@ function Stats() {
 					// w-full md:w-1/3 absolute md:relative
 				/>
 				<div className="   flex-1 justify-self-center py-4  ">
-					<PostStats />
+					<StaticStats />
 				</div>
 				<img
 					src={fireWorks}

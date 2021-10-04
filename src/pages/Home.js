@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../images/elbombi.jpg';
+import allstars from '../images/allstars.jpg';
 import Sound from '../components/Sound';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -19,18 +20,21 @@ function Home() {
 						JC_Texas_Art
 					</a>
 				</h6>
-
-				<div className="text-white py-5">
-					<a target="_blank" rel="noreferrer" href="https://www.mlb.com/all-star/ballot">
-						<b>ALL STAR BALLOT !!!</b>
+				<div className="">
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://www.mlb.com/news/rangers-joey-gallo-adolis-garcia-kyle-gibson-added-to-all-star-game-roster"
+					>
+						<img src={allstars} alt="" className=" object-contain" />
 					</a>
 				</div>
-				<br />
 				<div className="text-white text-center">
 					<ul>
-						<li> Phase 1 : June 24th</li>
-						<li> Phase 2 : July 1st</li>
-						<li> Winners will be announced July 1st @ 9PM</li>
+						<li> Adolis Garcia 2021 All-Star!</li>
+						<a target="_blank" rel="noreferrer" href="https://www.mlb.com/news/2021-all-star-game-rosters">
+							<li> Full All-Star List</li>
+						</a>
 					</ul>
 				</div>
 				<div className="pt-3">
